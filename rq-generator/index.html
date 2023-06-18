@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RQ-Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/793ae62f6d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="categ">
+        <i class="fa-regular fa-angle-left"></i>
+        <span class="options"></span>
+        <i class="fa-regular fa-angle-right"></i>
+      </div>
+      <div class="quote-container">
+        <div class="nav">
+          <button type="button" class="btn prev">prevous quote</button>
+          <button type="button" class="btn next">next quote</button>
+        </div>
+        <i class="fa-regular fa-angle-left"></i>
+        <div class="content">
+          <h2>“<span class="qText"></span>”</h2>
+          <h4>~ <span class="qAuthor"></span></h4>
+        </div>
+        <i class="fa-regular fa-angle-right"></i>
+      </div>
+
+      <button class="gen" type="button">Generate quote</button>
+
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
